@@ -8,7 +8,8 @@ from bs4 import BeautifulSoup
 #https://realpython.com/beautiful-soup-web-scraper-python/
 
 #https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia
-websiteURL = input("What website would you like to scrape? ")
+#websiteURL = input("What website would you like to scrape? ")
+websiteURL = 'https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia'
 print("Scraping data from " + websiteURL)
 
 page = requests.get(websiteURL)
